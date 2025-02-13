@@ -1,0 +1,11 @@
+<mat-toolbar class="header">
+  <!-- USER AVATAR -->
+  <img [src]="userAvatar" alt="Avatar" class="user-avatar">
+  <!-- APPLICATION LOGO -->
+  <img src="logo.png" alt="Logo" class="logo">
+  <!-- LOGOUT BUTTON -->
+  <button mat-fab extended (click)="logout()">
+    <mat-icon>logout</mat-icon>
+    Déconnexion
+  </button>
+</mat-toolbar>
